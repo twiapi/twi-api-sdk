@@ -26,7 +26,7 @@ Works with **any language** – Python SDK, or call the REST API directly from N
 | Developer application | Required (days/weeks) | None – get a key instantly |
 | Data format | Nested, needs cleaning | Structured JSON, ready to use |
 | Rate limits | Strict, per-endpoint | Flexible per plan |
-| Pricing (monthly) | $100+ (Basic) / $5,000+ (Pro) | Starting at ¥49 (≈ $7) |
+| Pricing (monthly) | $100+ (Basic) / $5,000+ (Pro) | Starting at $7 |
 | Endpoints | Plan-restricted | All 14 available on every plan |
 
 ---
@@ -206,7 +206,7 @@ Please use the service responsibly and in compliance with applicable laws and pl
 
 ## Pricing
 
-Flexible plans starting at ¥49/month (≈ $7). Free trials are available. All plans include access to all 14 endpoints.
+Flexible plans starting at $7/month. Free trials are available. All plans include access to all 14 endpoints.
 
 See full pricing at [zhdq.xyz/#pricing](https://zhdq.xyz/#pricing).
 
@@ -235,7 +235,7 @@ TwiAPI 是一个第三方 Twitter/X 数据接口服务 + Python SDK，提供 14 
 | 开发者申请 | 必须申请，等几天到几周 | 不需要，拿到 Key 立刻用 |
 | 数据格式 | 嵌套原始数据，需要清洗 | 结构化 JSON，拿来就用 |
 | 调用限制 | 严格，按端点限制 | 按套餐灵活使用 |
-| 月费 | $100+（Basic）/ $5,000+（Pro） | ¥49 起（≈ $7） |
+| 月费 | $100+（Basic）/ $5,000+（Pro） | $7 起 |
 | 接口可用性 | 按套餐分级开放 | 14 个接口全部可用 |
 
 ### 快速开始
