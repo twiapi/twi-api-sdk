@@ -56,7 +56,7 @@ Demo mode returns realistic sample data for all 14 methods — user profiles, tw
 
 ### 3. Go live with a real key
 
-Get your key — contact us on [Telegram](https://t.me/alex11323) or visit [twiapi.net](https://twiapi.net):
+Get your key — contact us on [Telegram](https://t.me/alex11323), WeChat (`ppkk1874`), or visit [twiapi.net](https://twiapi.net):
 
 ```python
 api = TwiAPI("YOUR_API_KEY")     # ← swap demo=True for your real key
@@ -220,6 +220,7 @@ See full pricing at [twiapi.net/#pricing](https://twiapi.net/#pricing).
 - **Full API docs**: [twiapi.net/docs](https://twiapi.net/docs)
 - **MCP integration** (for AI agents like Claude, Cursor, ChatGPT): [twiapi.net/mcp-access](https://twiapi.net/mcp-access)
 - **Telegram support**: [@alex11323](https://t.me/alex11323) — 7×24 online
+- **WeChat support**: `ppkk1874`
 - **Website**: [twiapi.net](https://twiapi.net)
 - **Bug reports**: [GitHub Issues](../../issues)
 
