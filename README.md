@@ -56,7 +56,7 @@ Demo mode returns realistic sample data for all 14 methods — user profiles, tw
 
 ### 3. Go live with a real key
 
-Get your key at [zhdq.xyz](https://zhdq.xyz), then:
+Get your key — contact us on [Telegram](https://t.me/alex11323) or visit [zhdq.xyz](https://zhdq.xyz):
 
 ```python
 api = TwiAPI("YOUR_API_KEY")     # ← swap demo=True for your real key
