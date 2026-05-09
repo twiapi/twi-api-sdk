@@ -47,12 +47,12 @@ pip install twi-api
 from twi_api import TwiAPI
 
 api = TwiAPI(demo=True)          # ← 返回模拟数据，无需 API Key
-user = api.get_user("elonmusk")
+user = api.get_user("elonmusk")  # 获取任意用户的资料和粉丝数
 print(user["display_name"], user["followers_count"])
 # 输出: Elon Musk 195000000
 ```
 
-Demo 模式支持**所有 14 个方法**。clone 下来直接跑，零配置。
+Demo 模式为所有 14 个方法返回逼真的模拟数据——用户资料、推文、粉丝列表、热搜趋势等。无需注册、无需 Key、无需网络请求。
 
 ### 3. 使用真实 Key
 

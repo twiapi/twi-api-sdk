@@ -47,12 +47,12 @@ pip install twi-api
 from twi_api import TwiAPI
 
 api = TwiAPI(demo=True)          # ← returns realistic sample data
-user = api.get_user("elonmusk")
+user = api.get_user("elonmusk")  # Get any user's profile & follower count
 print(user["display_name"], user["followers_count"])
 # Output: Elon Musk 195000000
 ```
 
-Demo mode works for **all 14 methods**. Clone this repo and run the examples immediately — zero setup required.
+Demo mode returns realistic sample data for all 14 methods — user profiles, tweets, followers, trends, etc. No signup, no API key, no network requests.
 
 ### 3. Go live with a real key
 
