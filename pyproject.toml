@@ -33,4 +33,4 @@ dependencies = [
 [project.urls]
 Homepage = "https://zhdq.xyz"
 Documentation = "https://zhdq.xyz/docs"
-Repository = "https://github.com/your-username/twi-api-sdk"
+Repository = "https://github.com/twiapi/twi-api-sdk"
