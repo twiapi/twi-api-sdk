@@ -155,6 +155,7 @@ Ready-to-run Python scripts in the [`examples/`](./examples/) directory:
 
 | File | What it demonstrates |
 |------|---------------------|
+| [`examples/sdk_demo.py`](./examples/sdk_demo.py) | **SDK demo — all 14 methods, no API key needed** |
 | [`examples/search_tweets.py`](./examples/search_tweets.py) | Search tweets and filter by type |
 | [`examples/get_user_info.py`](./examples/get_user_info.py) | Fetch any user's profile |
 | [`examples/get_followers.py`](./examples/get_followers.py) | Paginated follower retrieval |

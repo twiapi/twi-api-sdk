@@ -155,6 +155,7 @@ Python SDK（`pip install twi-api`）为所有 14 个接口提供了简洁方法
 
 | 文件 | 功能 |
 |------|------|
+| [`sdk_demo.py`](./examples/sdk_demo.py) | **SDK 演示 — 14 个方法全部展示，无需 API Key** |
 | [`search_tweets.py`](./examples/search_tweets.py) | 按关键词搜索推文 |
 | [`get_user_info.py`](./examples/get_user_info.py) | 获取用户资料 |
 | [`get_followers.py`](./examples/get_followers.py) | 翻页获取粉丝列表 |
