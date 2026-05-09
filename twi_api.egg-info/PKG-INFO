@@ -1,3 +1,30 @@
+Metadata-Version: 2.4
+Name: twi-api
+Version: 0.3.0
+Summary: Unofficial Twitter/X data API client — search tweets, get followers, trends, user profiles.
+Author: TwiAPI
+License: MIT
+Project-URL: Homepage, https://twiapi.net
+Project-URL: Documentation, https://twiapi.net/docs
+Project-URL: Repository, https://github.com/twiapi/twi-api-sdk
+Keywords: twitter,twitter-api,x-api,twitter-scraper,twitter-data,social-media,osint
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.28.0
+Dynamic: license-file
+
 **[中文文档](./README_CN.md)**
 
 # TwiAPI – Unofficial Twitter/X Data API & Python SDK

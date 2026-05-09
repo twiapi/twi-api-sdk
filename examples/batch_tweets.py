@@ -7,8 +7,8 @@ Cost: per-tweet pricing (1 point each, minimum 5 points).
 
 import requests
 
-API_BASE = "https://zhdq.xyz"
-API_KEY = "YOUR_API_KEY"  # Replace with your key from zhdq.xyz
+API_BASE = "https://twiapi.net"
+API_KEY = "YOUR_API_KEY"  # Replace with your key from twiapi.net
 
 
 def batch_tweets(tweet_ids):

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "twi-api"
-version = "0.2.0"
+version = "0.3.0"
 description = "Unofficial Twitter/X data API client — search tweets, get followers, trends, user profiles."
 readme = "README.md"
 license = {text = "MIT"}
@@ -31,6 +31,6 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://zhdq.xyz"
-Documentation = "https://zhdq.xyz/docs"
+Homepage = "https://twiapi.net"
+Documentation = "https://twiapi.net/docs"
 Repository = "https://github.com/twiapi/twi-api-sdk"

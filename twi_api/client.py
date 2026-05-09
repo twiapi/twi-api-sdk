@@ -71,13 +71,13 @@ class TwiAPI:
     """TwiAPI client.
 
     Args:
-        api_key: Your TwiAPI key (get one at https://zhdq.xyz).
+        api_key: Your TwiAPI key (get one at https://twiapi.net).
             Pass ``demo=True`` instead to use demo mode (no key needed).
         demo: If True, return realistic sample data without calling the API.
         base_url: API base URL. Change this only for testing.
     """
 
-    def __init__(self, api_key: str = "", demo: bool = False, base_url: str = "https://zhdq.xyz"):
+    def __init__(self, api_key: str = "", demo: bool = False, base_url: str = "https://twiapi.net"):
         self.demo = demo
         self.api_key = api_key
         self.base_url = base_url.rstrip("/")

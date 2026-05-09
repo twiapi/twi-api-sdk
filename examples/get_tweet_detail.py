@@ -6,8 +6,8 @@ Fetch a single tweet with full details including author, engagement metrics, and
 
 import requests
 
-API_BASE = "https://zhdq.xyz"
-API_KEY = "YOUR_API_KEY"  # Replace with your key from zhdq.xyz
+API_BASE = "https://twiapi.net"
+API_KEY = "YOUR_API_KEY"  # Replace with your key from twiapi.net
 
 
 def get_tweet_detail(tweet_id):

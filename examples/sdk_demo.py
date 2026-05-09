@@ -125,5 +125,5 @@ print(user["display_name"], user["followers_count"])
 
 # Get your key / 获取 Key:
 #   Telegram: https://t.me/alex11323
-#   Website:  https://zhdq.xyz
+#   Website:  https://twiapi.net
 """)

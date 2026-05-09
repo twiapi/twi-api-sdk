@@ -7,8 +7,8 @@ Useful for finding influential followers, KOL analysis, and audience quality che
 
 import requests
 
-API_BASE = "https://zhdq.xyz"
-API_KEY = "YOUR_API_KEY"  # Replace with your key from zhdq.xyz
+API_BASE = "https://twiapi.net"
+API_KEY = "YOUR_API_KEY"  # Replace with your key from twiapi.net
 
 
 def get_blue_verified_followers(username, count=20, cursor=None):

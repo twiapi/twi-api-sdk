@@ -6,8 +6,8 @@ Search for tweets by keyword. Supports filtering by type (Latest, Top, Media).
 
 import requests
 
-API_BASE = "https://zhdq.xyz"
-API_KEY = "YOUR_API_KEY"  # Replace with your key from zhdq.xyz
+API_BASE = "https://twiapi.net"
+API_KEY = "YOUR_API_KEY"  # Replace with your key from twiapi.net
 
 
 def search_tweets(keyword, product="Latest", count=10, cursor=None):

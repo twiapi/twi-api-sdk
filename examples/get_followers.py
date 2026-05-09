@@ -6,8 +6,8 @@ Fetch a user's followers with cursor-based pagination.
 
 import requests
 
-API_BASE = "https://zhdq.xyz"
-API_KEY = "YOUR_API_KEY"  # Replace with your key from zhdq.xyz
+API_BASE = "https://twiapi.net"
+API_KEY = "YOUR_API_KEY"  # Replace with your key from twiapi.net
 
 
 def get_followers(username, count=20, cursor=None):
