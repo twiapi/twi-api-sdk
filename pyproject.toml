@@ -3,8 +3,8 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "twi-api"
-version = "0.3.0"
+name = "twiapi"
+version = "1.0.0"
 description = "Unofficial Twitter/X data API client — search tweets, get followers, trends, user profiles."
 readme = "README.md"
 license = {text = "MIT"}

@@ -3,11 +3,11 @@ TwiAPI SDK Demo — try all 14 endpoints without an API key.
 TwiAPI SDK 演示 — 无需 API Key 即可体验全部 14 个接口。
 
 Usage / 使用方法:
-    pip install twi-api
+    pip install twiapi
     python examples/sdk_demo.py
 """
 
-from twi_api import TwiAPI
+from twiapi import TwiAPI
 
 # ── Demo mode: no API key needed / 演示模式：无需 API Key ──
 print("=" * 50)

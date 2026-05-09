@@ -4,7 +4,7 @@
 
 > Get structured Twitter/X data in 3 lines of code. No developer application, no waiting.
 
-[![PyPI version](https://badge.fury.io/py/twi-api.svg)](https://pypi.org/project/twi-api/)
+[![PyPI version](https://badge.fury.io/py/twiapi.svg)](https://pypi.org/project/twiapi/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
@@ -38,13 +38,13 @@ Works with **any language** – Python SDK, or call the REST API directly from N
 ### 1. Install
 
 ```bash
-pip install twi-api
+pip install twiapi
 ```
 
 ### 2. Try it now — no API key needed (Demo Mode)
 
 ```python
-from twi_api import TwiAPI
+from twiapi import TwiAPI
 
 api = TwiAPI(demo=True)          # ← returns realistic sample data
 user = api.get_user("elonmusk")  # Get any user's profile & follower count
@@ -101,7 +101,7 @@ Response:
 
 ## SDK Methods
 
-The Python SDK (`pip install twi-api`) provides simple methods for all 14 endpoints:
+The Python SDK (`pip install twiapi`) provides simple methods for all 14 endpoints:
 
 | Category | Method | Returns |
 |----------|--------|---------|
@@ -167,7 +167,7 @@ Ready-to-run Python scripts in the [`examples/`](./examples/) directory:
 Run any example:
 
 ```bash
-pip install twi-api
+pip install twiapi
 python examples/search_tweets.py
 ```
 

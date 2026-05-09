@@ -38,13 +38,13 @@
 ### 1. 安装
 
 ```bash
-pip install twi-api
+pip install twiapi
 ```
 
 ### 2. 无需 Key 即可体验（Demo 模式）
 
 ```python
-from twi_api import TwiAPI
+from twiapi import TwiAPI
 
 api = TwiAPI(demo=True)          # ← 返回模拟数据，无需 API Key
 user = api.get_user("elonmusk")  # 获取任意用户的资料和粉丝数
@@ -101,7 +101,7 @@ const data = await resp.json();
 
 ## SDK 方法
 
-Python SDK（`pip install twi-api`）为所有 14 个接口提供了简洁方法：
+Python SDK（`pip install twiapi`）为所有 14 个接口提供了简洁方法：
 
 | 分类 | 方法 | 返回 |
 |------|------|------|
@@ -165,7 +165,7 @@ Python SDK（`pip install twi-api`）为所有 14 个接口提供了简洁方法
 | [`get_trends.py`](./examples/get_trends.py) | 获取热搜趋势 |
 
 ```bash
-pip install twi-api
+pip install twiapi
 python examples/search_tweets.py
 ```
 

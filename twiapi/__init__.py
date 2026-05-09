@@ -3,4 +3,4 @@
 from .client import TwiAPI, TwiAPIError
 
 __all__ = ["TwiAPI", "TwiAPIError"]
-__version__ = "0.3.0"
+__version__ = "1.0.0"
