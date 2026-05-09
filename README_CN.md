@@ -4,7 +4,7 @@
 
 > 3 行代码获取 Twitter/X 结构化数据，无需申请官方开发者账号。
 
-[![PyPI version](https://badge.fury.io/py/twi-api.svg)](https://pypi.org/project/twi-api/)
+[![PyPI version](https://badge.fury.io/py/twiapi.svg)](https://pypi.org/project/twiapi/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
