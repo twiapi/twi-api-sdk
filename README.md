@@ -1,3 +1,5 @@
+**[中文文档](./README_CN.md)**
+
 # TwiAPI – Unofficial Twitter/X Data API & Python SDK
 
 > Get structured Twitter/X data in 3 lines of code. No developer application, no waiting.
@@ -222,107 +224,9 @@ See full pricing at [zhdq.xyz/#pricing](https://zhdq.xyz/#pricing).
 
 ---
 
-## 中文说明
-
-TwiAPI 是一个第三方 Twitter/X 数据接口服务 + Python SDK，提供 14 个接口，无需申请官方开发者账号，直接返回结构化 JSON 数据。
-
-📖 完整文档：[zhdq.xyz/docs](https://zhdq.xyz/docs)
-
-### 官方 API vs TwiAPI
-
-| | 官方 Twitter API | TwiAPI |
-| --- | --- | --- |
-| 开发者申请 | 必须申请，等几天到几周 | 不需要，拿到 Key 立刻用 |
-| 数据格式 | 嵌套原始数据，需要清洗 | 结构化 JSON，拿来就用 |
-| 调用限制 | 严格，按端点限制 | 按套餐灵活使用 |
-| 月费 | $100+（Basic）/ $5,000+（Pro） | $7 起 |
-| 接口可用性 | 按套餐分级开放 | 14 个接口全部可用 |
-
-### 快速开始
-
-**安装 SDK：**
-```bash
-pip install twi-api
-```
-
-**无需 Key 即可体验（Demo 模式）：**
-```python
-from twi_api import TwiAPI
-
-api = TwiAPI(demo=True)          # 返回模拟数据，无需 API Key
-user = api.get_user("elonmusk")
-print(user["display_name"], user["followers_count"])
-# 输出: Elon Musk 195000000
-```
-
-**使用真实 Key：**
-```python
-api = TwiAPI("YOUR_API_KEY")
-user = api.get_user("elonmusk")
-```
-
-**也可直接调用 REST API（支持任何语言）：**
-
-```bash
-curl -G "https://zhdq.xyz/api/user/info" \
-  --header "Authorization: Bearer YOUR_API_KEY" \
-  --data-urlencode "username=elonmusk"
-```
-
-### 全部 14 个接口
-
-*消耗 = 每次调用从月度配额中扣除的请求次数。*
-
-| 分类 | 接口 | 路径 | 消耗 | 说明 |
-|------|------|------|------|------|
-| **用户** | 用户信息 | `GET /api/user/info` | 1 | 用户资料、粉丝数、认证状态 |
-| | 用户搜索 | `GET /api/user/search` | 1 | 按关键词搜索用户 |
-| | 用户推文 | `GET /api/user/tweets` | 1 | 用户的推文、回复或点赞 |
-| | 粉丝列表 | `GET /api/user/followers` | 3 | 粉丝列表，支持翻页 |
-| | 蓝V粉丝 | `GET /api/user/blue_verified_followers` | 3 | 仅蓝V认证粉丝 |
-| | 关注列表 | `GET /api/user/following` | 3 | 用户关注的人 |
-| **推文** | 推文搜索 | `GET /api/tweet/search` | 2 | 按关键词搜索，支持最新/热门/媒体筛选 |
-| | 推文详情 | `GET /api/tweet/detail` | 1 | 完整推文 + 作者 + 媒体 + 互动数据 |
-| | 批量推文 | `GET /api/tweet/batch` | 5~20 | 一次获取最多 20 条推文 |
-| | 推文评论 | `GET /api/tweet/comments` | 3 | 推文下的回复和评论 |
-| | 转发者 | `GET /api/tweet/retweeters` | 2 | 查看谁转发了推文 |
-| | 点赞者 | `GET /api/tweet/favoriters` | 2 | 查看谁点赞了推文 |
-| **其他** | 热搜趋势 | `GET /api/trends` | 1 | 当前热门趋势话题 |
-| | 列表推文 | `GET /api/list/tweets` | 2 | 获取 Twitter 列表内的推文 |
-
-所有列表接口支持游标翻页。
-
-### 示例代码
-
-[`examples/`](./examples/) 目录下有可直接运行的 Python 脚本：
-
-| 文件 | 功能 |
-|------|------|
-| [`search_tweets.py`](./examples/search_tweets.py) | 按关键词搜索推文 |
-| [`get_user_info.py`](./examples/get_user_info.py) | 获取用户资料 |
-| [`get_followers.py`](./examples/get_followers.py) | 翻页获取粉丝列表 |
-| [`get_blue_verified_followers.py`](./examples/get_blue_verified_followers.py) | 仅获取蓝V粉丝 |
-| [`get_tweet_detail.py`](./examples/get_tweet_detail.py) | 获取单条推文完整详情 |
-| [`batch_tweets.py`](./examples/batch_tweets.py) | 批量获取推文 |
-| [`get_trends.py`](./examples/get_trends.py) | 获取热搜趋势 |
-
-```bash
-pip install twi-api
-python examples/search_tweets.py
-```
-
-### 联系我们
-
-- 完整文档：[zhdq.xyz/docs](https://zhdq.xyz/docs)
-- MCP 接入（支持 Claude、Cursor、ChatGPT 等 AI 工具）：[zhdq.xyz/mcp-access](https://zhdq.xyz/mcp-access)
-- Telegram 客服：[@alex11323](https://t.me/alex11323) — 7x24 在线
-- 官网：[zhdq.xyz](https://zhdq.xyz)
-
----
-
 ## Keywords
 
-`twitter api` `twitter api python` `twitter api alternative` `twitter scraper` `twitter data api` `twitter api wrapper` `x api` `tweet search api` `twitter followers api` `twitter user info api` `scrape tweets` `twitter scraping` `get twitter data` `twitter api free` `twitter api cheap` `social media api` `osint twitter` `python twitter` `twitter unofficial api` `twitter api without developer account` `推特API` `推特数据` `推特爬虫` `推特接口` `twitter数据接口`
+`twitter api` `twitter api python` `twitter api alternative` `twitter scraper` `twitter data api` `twitter api wrapper` `x api` `tweet search api` `twitter followers api` `twitter user info api` `scrape tweets` `twitter scraping` `get twitter data` `twitter api free` `twitter api cheap` `social media api` `osint twitter` `python twitter` `twitter unofficial api` `twitter api without developer account`
 
 ---
 
